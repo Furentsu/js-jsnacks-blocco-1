@@ -1,4 +1,4 @@
-/*
+/* #1
  * L'utente inserisce due parole in successione, con due prompt. 
  * Il software stampa prima la parola più corta, poi la parola più lunga.
  */
@@ -16,7 +16,7 @@
 //  }
 
 
-/*
+/* #2
  * Il software deve chiedere per 10 volte all'utente di inserire un numero.
  * Il programma stampa la somma di tutti i numeri inseriti. 
  */
@@ -36,7 +36,7 @@
 //  console.log(sum);
 
 
-/**
+/**  #3   
  *   In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, 
  *   chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa.
  */
@@ -57,7 +57,7 @@
 // alert(permesso);
 
 
-/**
+/** #4
  * Crea un array vuoto.
  * Chiedi per 6 volte all'utente di inserire un numero,
  * se è dispari inseriscilo nell'array.
@@ -82,7 +82,7 @@
 //  console.log(even_array);
 
 
-/**
+/** #5
  * Calcola la somma e la media dei primi 10 numeri
  */
 
@@ -98,7 +98,7 @@
 //  console.log(sum/10);
 
 
-/*
+/*  #6
  *	Crea un array vuoto.
  * 	Chiedi all'utente di inserire cinque parole.
  *	Quando una parola è scritta con tutti i caratteri in maiuscolo stampa un alert,
@@ -107,27 +107,24 @@
  */
 
 //  let array = [];
-
 //  let n = 0;
 
 //  while (n < 5) {
 //      let word = prompt("Inserisci una parola!");
      
-//      for (i = 0; i < word.length; i++)
-//      if (word.charAt(i) === word.charAt(i).toUpperCase()) {
+//      if (word === word.toUpperCase()) {
 //         alert("Non urlare!!!");
 //         break;
 //      } else {
 //         array.push(word);
-//         break;
+//         n++;
 //      }
-//      n++;
 //  }
 
 //  console.log(array);
  
 
-/**
+/** #7
  *  Il software deve chiedere per 5 volte all'utente di inserire un numero.
  *  Il programma stampa la somma di tutti i numeri inseriti.
  *  Esegui questo programma in due versioni, con il for e con il while.
@@ -157,7 +154,7 @@
 // console.log(sum);
 
 
-/**
+/** #8
  * 
  * Generatore di "nomi cognomi" casuali: prendendo una lista di nomi e 
  * una lista di cognomi, Gatsby vuole generare una falsa lista di 8 invitati.
@@ -189,7 +186,7 @@
 // }
 
 
-/**
+/** #9
  *  A)
  *   Crea due array che hanno un numero di elementi diversi (di almeno 6 elementi).
  *   Aggiungi elementi casuali all'array che ha meno elementi, fino a quando ne avrà 
@@ -199,20 +196,20 @@
  *  Mostriamo in HTML le due liste in parallelo
  */
 
- let arrayOne = [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25];
- let arrayTwo = [1,2,3,4,5,6];
+//  let arrayOne = [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25];
+//  let arrayTwo = [1,2,3,4,5,6];
 
- while (arrayTwo.length < arrayOne.length) {
-    arrayTwo.push(Math.floor(Math.random() * 25) + 1);
- }
+//  while (arrayTwo.length < arrayOne.length) {
+//     arrayTwo.push(Math.floor(Math.random() * 25) + 1);
+//  }
 
-for (i = 0; i < arrayOne.length; i++) {
-    document.getElementById("list_one").innerHTML += '<li>' + arrayOne[i] + '</li>';
-}
+// for (i = 0; i < arrayOne.length; i++) {
+//     document.getElementById("list_one").innerHTML += '<li>' + arrayOne[i] + '</li>';
+// }
 
-for (i = 0; i < arrayOne.length; i++) {
-    document.getElementById("list_two").innerHTML += '<li>' + arrayTwo[i] + '</li>';
-}
+// for (i = 0; i < arrayOne.length; i++) {
+//     document.getElementById("list_two").innerHTML += '<li>' + arrayTwo[i] + '</li>';
+// }
 
 
 
