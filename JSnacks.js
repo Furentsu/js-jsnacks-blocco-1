@@ -171,20 +171,15 @@
 // let randomGuests = [];
 
 // for (i = 0; i < 8; i++) {
-//     randomindex = Math.floor((Math.random() * listaNomi.length) + 1);
-//     randomNames.push(listaNomi[randomindex] + " ");
-// }
+//     randomIndexNames = Math.floor((Math.random() * listaNomi.length) + 1);
+//     randomNames.push(listaNomi[randomIndexNames] + " ");
 
-// for (i = 0; i < 8; i++) {
-//     randomindex = Math.floor((Math.random() * listaCognomi.length) + 1);
-//     randomSurnames.push(listaCognomi[randomindex] + " ");
-// }
+//     randomIndexSurnames = Math.floor((Math.random() * listaCognomi.length) + 1);
+//     randomSurnames.push(listaCognomi[randomIndexSurnames] + " ");
 
-// for (i = 0; i < 8; i++) {
 //     randomGuests.push(randomNames[i] + " " + randomSurnames[i]);
 //     document.getElementById("list").innerHTML += '<li>' + randomGuests[i] + '</li>';
 // }
-
 
 /** #9
  *  A)
