@@ -194,9 +194,18 @@
 //  let arrayOne = [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25];
 //  let arrayTwo = [1,2,3,4,5,6];
 
-//  while (arrayTwo.length < arrayOne.length) {
-//     arrayTwo.push(Math.floor(Math.random() * 25) + 1);
+//  if (arrayOne.length > arrayTwo.length) {
+//     while (arrayTwo.length < arrayOne.length) {
+//         arrayTwo.push(Math.floor(Math.random() * 25) + 1);
+//      }
+//  } else if (arrayOne.length < arrayTwo.length) {
+//     while (arrayTwo.length > arrayOne.length) {
+//         arrayOne.push(Math.floor(Math.random() * 25) + 1);
+//      }
+//  } else {
+//     alert("Le due liste sono uguali!")
 //  }
+
 
 // for (i = 0; i < arrayOne.length; i++) {
 //     document.getElementById("list_one").innerHTML += '<li>' + arrayOne[i] + '</li>';
